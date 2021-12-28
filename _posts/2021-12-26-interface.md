@@ -13,7 +13,7 @@ This post just demonstrates how to integrate javascript into a post.
 
 <script>
   function helloWorld() {
-     return "Hello, World!"
+     console.log("Hello, World!");
   }
   
   helloWorld();
