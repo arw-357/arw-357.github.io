@@ -10,3 +10,11 @@ This post just demonstrates how to integrate javascript into a post.
 <script>
   document.getElementById('obj').style.color = "red";
 </script>
+
+<script>
+  function helloWorld() {
+     return "Hello, World!"
+  }
+  
+  helloWorld();
+</script>
