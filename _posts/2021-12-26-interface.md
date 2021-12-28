@@ -5,9 +5,10 @@ title: "Demonstrating a Javascript interface"
 
 This post just demonstrates how to integrate javascript into a post. 
 
-<input id="loanAmount" value="500000"> Loan Amount</input> <br/>
-<input id="loanTerm" value="30"> Loan Term (in years)</input> <br/>
-<input id="interestRate" value="3.2"> Interest rate (as percentage)</input> <br/>
+<input id="loanAmount" type="text" value="500000"></input> Loan Amount<br/>
+<input id="loanTerm" type="text" value="30"></input> Loan Term (in years)<br/>
+<input id="interestRate" type="text" value="3.2"></input> Interest rate (as percentage)<br/>
+<br/>
 <button onclick="output()">Submit</button>
 <p>
 <div id="monthlyPayment"></div> <br/>
